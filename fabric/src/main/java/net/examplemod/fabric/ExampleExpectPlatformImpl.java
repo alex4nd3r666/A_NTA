@@ -1,4 +1,4 @@
-package ru.a_nta.fabric;
+package net.examplemod.fabric;
 
 import net.fabricmc.loader.api.FabricLoader;
 

@@ -1,4 +1,4 @@
-package ru.a_nta.forge;
+package net.examplemod.forge;
 
 public class ExampleExpectPlatformImpl {
 	public static String platformName() {

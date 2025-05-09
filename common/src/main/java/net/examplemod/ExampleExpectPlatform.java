@@ -1,4 +1,4 @@
-package ru.a_nta;
+package net.examplemod;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 
@@ -10,7 +10,7 @@ public class ExampleExpectPlatform {
      * platform sub-package, with its class suffixed with {@code Impl}.
      * <p>
      * Example:
-     * Expect: ru.a_nta.ExampleExpectPlatform#platformName()
+     * Expect: net.examplemod.ExampleExpectPlatform#platformName()
      * Actual Fabric: net.examplemod.fabric.ExampleExpectPlatformImpl#platformName()
      * Actual Forge: net.examplemod.forge.ExampleExpectPlatformImpl#platformName()
      * <p>
