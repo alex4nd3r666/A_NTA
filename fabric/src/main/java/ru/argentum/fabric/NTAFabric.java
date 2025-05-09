@@ -1,18 +1,18 @@
-package net.examplemod.fabric;
+package ru.argentum.fabric;
 
 import io.github.fabricators_of_create.porting_lib.util.EnvExecutor;
-import net.examplemod.ExampleBlocks;
-import net.examplemod.ExampleMod;
+import ru.argentum.ExampleBlocks;
+import ru.argentum.NTA;
 import net.fabricmc.api.ModInitializer;
 
-public class ExampleModFabric implements ModInitializer {
+public class NTAFabric implements ModInitializer {
     @Override
     public void onInitialize() {
-        ExampleMod.init();
-        ExampleMod.LOGGER.info(EnvExecutor.unsafeRunForDist(
+        NTA.init();
+        NTA.LOGGER.info(EnvExecutor.unsafeRunForDist(
                 () -> () -> "{} is accessing Porting Lib on a Fabric client!",
                 () -> () -> "{} is accessing Porting Lib on a Fabric server!"
-                ), ExampleMod.NAME);
+                ), NTA.NAME);
         // on fabric, Registrates must be explicitly finalized and registered.
         ExampleBlocks.REGISTRATE.register();
     }

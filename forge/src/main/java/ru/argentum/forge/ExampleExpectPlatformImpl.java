@@ -1,4 +1,4 @@
-package net.examplemod.forge;
+package ru.argentum.forge;
 
 public class ExampleExpectPlatformImpl {
 	public static String platformName() {

@@ -1,4 +1,4 @@
-package net.examplemod.fabric;
+package ru.argentum.fabric;
 
 import net.fabricmc.loader.api.FabricLoader;
 

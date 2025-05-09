@@ -1,13 +1,13 @@
-package net.examplemod;
+package ru.argentum;
 
 import com.simibubi.create.Create;
 import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ExampleMod {
-    public static final String MOD_ID = "examplemod";
-    public static final String NAME = "Example Mod";
+public class NTA {
+    public static final String MOD_ID = "nta";
+    public static final String NAME = "Nuclear Tech Addon";
     public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
 
 
